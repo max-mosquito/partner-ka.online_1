@@ -330,6 +330,9 @@ h3 {
   line-height: 20px;
   letter-spacing: 0.400000006px;
 }
+.header_info_contact a:hover {
+  text-decoration: underline;
+}
 
 .btn {
   background-color: #ffcc33;
@@ -340,6 +343,13 @@ h3 {
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0.400000006px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.btn:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .btn_header {
