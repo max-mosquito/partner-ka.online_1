@@ -64,22 +64,11 @@ h3{
 	align-items: center;
 	position: relative;
 	transition: 0.3s;
-	// padding-bottom: 125px;
 }
 @media (max-width:1200px) {
 	.header_wrap{
 		flex-wrap: wrap;
 	}
-}
-.drop_menu{
-	// position: absolute;
-	// left: 0;
-	// bottom: 0;
-	// width: 100%;
-	// padding: 0 25px;
-	// display: grid;
-	// grid-template-columns: repeat(10,1fr);
-	// column-gap: 4px;
 }
 
 .header_logo {
@@ -315,8 +304,6 @@ h3{
 		}
 	}
 }
-.header_info_btn {
-}
 .btn {
 	background-color: $by;
 	padding-top: 14px;
@@ -342,8 +329,6 @@ h3{
 	background: url("../img/bg1-1.svg") 50vw -500px no-repeat;
 	padding-top: 64px;
 	padding-bottom: 68px;
-}
-.agency_wrap {
 }
 .agency_title {
 	padding-bottom: 64px;
@@ -399,8 +384,6 @@ h3{
 	position: absolute;
 	right: 24px;
 	top: 24px;
-}
-.agency_services_row {
 }
 @media (max-width:1200px) {
 	.agency_services_row{
