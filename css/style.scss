@@ -27,6 +27,9 @@ body {
 		font-family: "jost", sans-serif;
 		color: rgba(0, 0, 0, 0.8);
 	}
+	&.lock{
+		overflow: hidden;
+	}
 }
 .wrapper{
 	background-color: #F5F7FA;
@@ -560,4 +563,119 @@ h3{
 	}
 }
 // ---------end agency----------
-
+// ---------start popup----------
+.popup {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.form_popup{
+	display: none;
+}
+.popup_wrap{
+	position: relative;
+	max-width: 600px;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 12px;
+	padding: 16px 0;
+}
+.close_popup{
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	cursor: pointer;
+}
+.popup_title {
+	padding-bottom: 16px;
+	border-bottom: 1px solid #ccc;
+	padding-left: 24px;
+	margin-bottom: 36px;
+}
+.popup_form {
+	padding: 0 24px;
+}
+.popup_form_item{
+	margin-bottom: 16px;
+	&:last-child{
+		margin-bottom: 0;
+	}
+	label{
+		display: block;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 20px;
+		letter-spacing: 0.4000000059604645px;
+		opacity: 0.4;
+		margin-bottom: 5px;
+	}
+	input{
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 20px;
+		letter-spacing: 0.4000000059604645px;
+		padding: 14px 16px;
+		border: 1px solid #ccc;
+		border-radius: 12px;
+		width: 100%;
+	}
+	button{
+		width: 100%;
+	}
+}
+.popup_form_item_checkbox{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	input{
+		width: 16px;
+		margin-right: 8px;
+		margin-top: 5px;
+	}
+	label{
+		a{
+			color: #cc9900;
+			font-weight: 500;
+		}
+	}
+}
+// ---------------------
+.popup_confirm {
+	display: none;
+}
+.popup_pic {
+	img{
+		margin: 40px auto 64px;
+	}
+}
+.popup_title {
+	text-align: center;
+	border-bottom: none;
+	margin-bottom: 12px;
+}
+.popup_text {
+	margin-bottom: 48px;
+	p{
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 20px;
+		letter-spacing: 0.4000000059604645px;
+		text-align: center;
+		opacity: 0.6;
+	}
+}
+.popup_btn {
+	text-align: center;
+	margin-bottom: 40px;
+}
+.close_confirm_popup {
+	padding-left: 24px;
+	padding-right: 24px;
+}
+// ---------end popup----------
